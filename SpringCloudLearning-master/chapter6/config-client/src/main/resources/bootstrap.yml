@@ -1,11 +1,16 @@
+#服务配置
 server:
   port: 8881
-
+#应用配置
 spring:
   application:
-    name: config-client
+    name: config-client #应用名
   cloud:
     config:
-      label: master
+      label: master #git label(提交id,分支名称或tag)
       profile: dev
       uri: http://localhost:8888/
+
+management:
+  security:
+    enabled: false #关闭默认开通了安全认证
