@@ -15,23 +15,8 @@ spring:
           searchPaths: common-config #搜寻目录，可以配置多个，用逗号分割
           uri: https://github.com/jackyang104873858/Springcloudtraining #仓库地址
           username: '' #登录用户
-          
-        #svn:
-          #uri: http://192.168.0.6/svn/repo/config-repo
-          #username: username
-          #password: password
-        #default-label: trunk
-  #profiles:
-    #active: subversion
 server:
-  port: '8888'        
-#eureka服务注册地址
-eureka:  
-  client:  
-    service-url:  
-      defaultZone: http://server1:8761/eureka/,http://server1:8762/eureka/,http://server1:8763/eureka/ 
-  #instance:  
-    #prefer-ip-address: true
+  port: '8888'
 ---
 #服务配置
 spring:
@@ -46,23 +31,8 @@ spring:
           searchPaths: common-config #搜寻目录，可以配置多个，用逗号分割
           uri: https://github.com/jackyang104873858/Springcloudtraining #仓库地址
           username: '' #登录用户
-          
-        #svn:
-          #uri: http://192.168.0.6/svn/repo/config-repo
-          #username: username
-          #password: password
-        #default-label: trunk
-  #profiles:
-    #active: subversion
 server:
-  port: '8889'        
-#eureka服务注册地址
-eureka:  
-  client:  
-    service-url:  
-      defaultZone: http://server1:8761/eureka/,http://server1:8762/eureka/,http://server1:8763/eureka/ 
-  #instance:  
-    #prefer-ip-address: true     
+  port: '8889'          
 ---
 #服务配置
 spring:
@@ -77,21 +47,6 @@ spring:
           searchPaths: common-config #搜寻目录，可以配置多个，用逗号分割
           uri: https://github.com/jackyang104873858/Springcloudtraining #仓库地址
           username: '' #登录用户
-          
-        #svn:
-          #uri: http://192.168.0.6/svn/repo/config-repo
-          #username: username
-          #password: password
-        #default-label: trunk
-  #profiles:
-    #active: subversion
 server:
-  port: '8890'        
-#eureka服务注册地址
-eureka:  
-  client:  
-    service-url:  
-      defaultZone: http://server1:8761/eureka/,http://server1:8762/eureka/,http://server1:8763/eureka/ 
-  #instance:  
-    #prefer-ip-address: true 
+  port: '8890'
     
